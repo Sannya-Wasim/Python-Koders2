@@ -1,0 +1,53 @@
+#WHILE LOOPS
+'''laps=0
+while laps<10:
+    laps+=1
+    print(laps,"\t",end="") #it prints the incremented value
+print("\nand\nDone")
+
+i=0
+while i<10:
+    print("i")  #if we dont increment the value of i, then the program will run continuously.
+    print(exit())  #this is why it is also called an infinite loop
+
+#BREAK AND CONTINUE IN WHILELOOPS
+for char in "Hello good morning":
+    if char == "o":
+        break
+        continue
+    print(char)
+
+print("The end")'''
+
+#LISTS
+'''list=['apple','mango','orange']
+#INDEXING
+print(list[0])#indexing---> when we want single value from the list
+
+#SLICING
+print(list[0:2])#slicing--->multiple values in the form of list (the form we inputted)
+print(list[:2])#starts fromthe 0th value
+print(list[0:])#ends till the last value
+print(list[:])#0tolast
+print(list[-3:-1])#the starting value willbe -3th position and ending will be 1 less than -1th value. It doesnt matter if there are negative values. the starting and the ending processes are same.
+
+#SUBSTITUTION
+list[0]='banana'
+print(list)
+
+#IN in LISTS
+if 'apple' in list:
+    print("Apple is in the list")
+else:
+    print("Apple is not in the list")
+
+#LENGTH
+print(len(list))
+
+#APPEND(ADD ITEMS)
+list.append('strawberry')
+print(list)
+
+#REMOVE ITEM FROM THE LIST
+list.remove("banana")
+print(list)'''
